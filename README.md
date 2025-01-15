@@ -24,6 +24,12 @@ This is a typical regression problem since we need to predict a numerical value.
 We will go through the 6-step Machine Learning model framework. 
 ![Screenshot 2025-01-15 at 14 00 25](https://github.com/user-attachments/assets/e506b7d9-162b-4265-aecb-6efa040ab20d)
 
+1. Identify the problem:
+We are trying to answer the question: How well can we predict future sale price of a bulldozer, based on past sale points and bulldozer characteristics?
+
+2. Dataset: The dataset can be found [License]([#license](https://www.kaggle.com/c/bluebook-for-bulldozers/data)).
+
+3. 
 ---
 
 ## 🚀 Getting Started  
