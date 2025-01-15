@@ -29,11 +29,21 @@ We are trying to answer the question: How well can we predict future sale price 
 
 2. Dataset: The dataset can be found [License]([#license](https://www.kaggle.com/c/bluebook-for-bulldozers/data)). Data is split into three parts:
 
-- *Train.csv*: is the training set, which contains data through the end of 2011.
-- *Valid.csv*: is the validation set, which contains data from January 1, 2012 - April 30, 2012.
-- *Test.csv*: It contains data from May 1, 2012 - November 2012.
+- **Train.csv**: is the training set, which contains data through the end of 2011.
+- **Valid.csv**: is the validation set, which contains data from January 1, 2012 - April 30, 2012.
+- **Test.csv**: It contains data from May 1, 2012 - November 2012.
 
-3. 
+The key fields are in **train.csv** are:
+
+- SalesID: the uniue identifier of the sale
+- MachineID: the unique identifier of a machine.  A machine can be sold multiple times
+- saleprice: what the machine sold for at auction (only provided in train.csv)
+- saledate: the date of the sale
+
+3. Evaluation:
+The evaluation metric is root mean squared log error (RMSLE). As with many regression evaluations, the goal is to get this value as low as possible.
+
+4. 
 ---
 
 ## 🚀 Getting Started  
