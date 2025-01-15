@@ -1,15 +1,11 @@
 # Project Name  
-
-[![License](https://img.shields.io/github/license/yourusername/your-repo.svg)](LICENSE)  
-[![Contributors](https://img.shields.io/github/contributors/yourusername/your-repo.svg)]()  
-[![Issues](https://img.shields.io/github/issues/yourusername/your-repo.svg)]()  
+1. Predicting the sale price of Bulldozers  (regression)
 
 ## 📖 Table of Contents
 - [About the Project](#about-the-project)  
 - [Features](#features)  
 - [Getting Started](#getting-started)  
   - [Prerequisites](#prerequisites)  
-  - [Installation](#installation)  
 - [Usage](#usage)  
 - [Contributing](#contributing)  
 - [License](#license)  
@@ -18,30 +14,21 @@
 ---
 
 ## 📝 About the Project  
-Provide a brief description of your project here. Include the problem it solves, its purpose, or any background information.  
-
-### Demo  
-Add a link to a live demo or screenshots.  
-
+In this project, the bulldozers past sales prices are used to predict the sale price of future bulldozers based on their characteristics.
+- Inputs: Bulldozer characteristics such as make year, base model, model series, state of sale (e.g. which US state was it sold in), drive system and more.
+- Outputs: Bulldozer sale price (in USD).
+This is a typical regression problem since we need to predict a numerical value. And since we're predicting results with a time component (predicting future sales based on past sales), this is also known as a *time series* or *forecasting* problem.
 ---
 
-## ✨ Features  
-- Feature 1  
-- Feature 2  
-- Feature 3  
+## ✨ Overview
+We will go through the 6-step Machine Learning model framework. 
+![Screenshot 2025-01-15 at 14 00 25](https://github.com/user-attachments/assets/e506b7d9-162b-4265-aecb-6efa040ab20d)
 
 ---
 
 ## 🚀 Getting Started  
 
-### Prerequisites  
-List what the user needs to have installed to use your project. For example:  
+### Prerequisites   
 - Python 3.x  
-- Node.js  
-- Any dependencies, e.g., `pip install -r requirements.txt`  
 
-### Installation  
-Provide step-by-step instructions to set up your project locally:  
-1. Clone the repository:  
-   ```bash  
-   git clone https://github.com/yourusername/your-repo.git  
+
