@@ -43,7 +43,13 @@ The key fields are in **train.csv** are:
 3. Evaluation:
 The evaluation metric is root mean squared log error (RMSLE). As with many regression evaluations, the goal is to get this value as low as possible.
 
-4. 
+4. Features:
+The [following data dictionary](https://docs.google.com/spreadsheets/d/18ly-bLR8sbDJLITkWG7ozKm8l3RyieQ2Fpgix-beSYI/edit?gid=1021421956#gid=1021421956) which contains information about what each attribute of the dataset means.
+
+6. Modelling:
+
+7. Experiments:
+
 ---
 
 ## 🚀 Getting Started  
