@@ -1,15 +1,15 @@
 # Project Overview
-1. Predicting the sale price of Bulldozers  (regression problem)
+## 1. Predicting the sale price of Bulldozers  (regression problem)
 ---
 
-## 📝 About the Project  
+### 📝 About the Project  
 In this project, the bulldozers past sales prices are used to predict the sale price of future bulldozers based on their characteristics.
 - Inputs: Bulldozer characteristics such as make year, base model, model series, state of sale (e.g. which US state was it sold in), drive system and more.
 - Outputs: Bulldozer sale price (in USD).
 This is a typical regression problem since we need to predict a numerical value. And since we're predicting results with a time component (predicting future sales based on past sales), this is also known as a *time series* or *forecasting* problem.
 ---
 
-## ✨ Notebook logic
+### ✨ Notebook logic
 We will go through the 6-step Machine Learning model framework in the [notebook](https://github.com/emmanguyen102/Machine-Learning-portfolio/blob/main/regression/Random_forest_regression_problem.ipynb)
 ![Screenshot 2025-01-15 at 14 00 25](https://github.com/user-attachments/assets/e506b7d9-162b-4265-aecb-6efa040ab20d)
 
@@ -46,7 +46,7 @@ Model chosen is Random Forest Regression.
 
 ---
 
-## 🚀 Key findings:
+### 🚀 Key findings:
 - Choosing reasonably feasible model to train the given dataset.
 - Training on smaller dataset for experimentation.
 - Data pre-processing in a given udf instead of repeating the whole process for different datasets.
