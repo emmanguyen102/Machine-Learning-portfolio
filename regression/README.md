@@ -1,5 +1,5 @@
 # Project Overview
-## 1. Predicting heart disease
+## 1. Predicting the sale price of Bulldozers  (regression problem)
 ---
 
 ### 📝 About the Project  
