@@ -9,8 +9,8 @@ I also post on my [Medium blog](https://hangmortimer.medium.com/) (with already 
 ## Description
 
 The repo contains 7 main sections in such order:
-- Regression: Random Forest Regression problem
-- Classification:
+- Regression: Random Forest Regression model
+- Classification: Logistic Regression model
 - 
 
 ## Getting Started
