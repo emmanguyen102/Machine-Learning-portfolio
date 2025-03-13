@@ -37,10 +37,10 @@ The evaluation metric is root mean squared log error (RMSLE). As with many regre
 4. Features:
 The [following data dictionary](https://docs.google.com/spreadsheets/d/18ly-bLR8sbDJLITkWG7ozKm8l3RyieQ2Fpgix-beSYI/edit?gid=1021421956#gid=1021421956) which contains information about what each attribute of the dataset means.
 
-6. Modelling:
+5. Modelling:
 Model chosen is Random Forest Regression. 
 
-8. Experiments:
+6. Experiments:
 - Training model on smaller subset of data.
 - Tuning hyperparameters to get the best fit parameters to train the model. 
 

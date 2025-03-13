@@ -58,10 +58,10 @@ the more blood movement the better (no clots)
     - 7: reversable defect: no proper blood movement when excercising
 - target: have disease or not (1=yes, 0=no) (= the predicted attribute)
 
-6. Modelling:
+5. Modelling:
 Model chosen is Logistic Regression. 
 
-8. Experiments:
+6. Experiments:
 - Tuning hyperparameters to get the best fit parameters to train the model. 
 - Feature importance
 
